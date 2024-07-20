@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000000;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+header h1 {
+    margin-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 40px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#hero {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    background-color: rgba(22, 116, 116, 0.5);
+    padding: 20px;
+    padding-top: 5px;
+    margin-top:-30px ;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 20px;
+    background-color: #ee6c4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; 
+}
+
+.hero-button:hover {
+    background-color: #d6d62a;
+    border-radius: 100%;
+    transition: 1s;
+    color: #007bff;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Existing CSS remains the same */
+
+/* Styling for Services Section */
+#services {
+    background-color: #89cedc;
+    padding: 20px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+
+    text-align: left;
+}
+
+#services h2 {
+    color: #007bff;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+#services ul {
+    list-style-type: circle;
+    /* margin-left: 20px; */
+}
+
+#services li {
+    margin-bottom: 10px;
+    /* margin-top: 10px; */
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #e7caca;
+    padding: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    color: #28a745;
+    margin-bottom: -5px;
+    margin-top: -15px;
+    text-align: center;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: rgb(66, 63, 63);
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 5px;
+    margin-top: 1px;
+
+}
+
+/* Hover Effects */
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+
+    #services,
+    #about,
+    #contact {
+        text-align: center;
+    }
+
+    #services ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
